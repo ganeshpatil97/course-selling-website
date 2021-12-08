@@ -6,7 +6,7 @@ sudo chmod -R 775 /home/ubuntu/course-selling-website/myproj
 
 cd /home/ubuntu/course-selling-website
 python3 -m venv venv
-source /home/ubuntu/course-selling-website/venv/bin/activate
+#source /home/ubuntu/course-selling-website/venv/bin/activate
 
 cd /home/ubuntu/course-selling-website/myproj
 pip install wheel
