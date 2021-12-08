@@ -19,5 +19,4 @@ sudo chown ubuntu:ubuntu db.sqlite3
 echo "Running the application"
 python manage.py makemigrations
 python manage.py migrate
-python manage.py runserver 0.0.0.0:8080 >> /dev/null 2>&1 &
-
+python manage.py runserver 0.0.0.0:8080 > /dev/null 2>&1 &

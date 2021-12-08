@@ -13,8 +13,6 @@ else
   mkdir ${DIR}
 fi
 
-
-
 DIR1="/home/ubuntu/course-selling-website/myproj"
 
 if [ -d "$DIR1" ]; then

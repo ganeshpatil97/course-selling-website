@@ -16,10 +16,10 @@ then
 PID=`sudo ps -fu root | grep codedeploy | awk -F" " '{print $2}' | head -1`; 
 sudo kill -9 $PID; 
 while [ -e /proc/$PID ]; 
-do echo "Process: $PID is still running" > /home/ubuntu/pid.log;
+do echo "Process: $PID is still running" > /home/ubuntu/pid.log
 sleep .6; 
 done; 
-echo "Process $PID has finished" >> /home/ubuntu/pid.log; 
+echo "Process $PID has finished" >> /home/ubuntu/pid.log
 else
 echo "no process running as codeagent"
 fi
